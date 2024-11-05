@@ -1054,24 +1054,6 @@ h3 span.stop-blinking::before{
 
 
 
-@media(min-height:770px){
-    .info-about1{
-        left: 75%;
-        top: 170%;
-    }
-    
-    .info-about2{
-        left: 72%;
-        top: 205%;
-    }
-    
-    .info-about3{
-     left: 6%;
-     top: 206%;   
-    }
-}
-
-
 @media(max-height:780px){
     .info-about1{
         left: 75%;
