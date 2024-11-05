@@ -917,6 +917,7 @@ h3 span.stop-blinking::before{
 
 
 
+
 @media(max-height:875px){
     .info-about1{
         left: 75%;
@@ -1049,4 +1050,92 @@ h3 span.stop-blinking::before{
         font-size: 3.4rem;
     }
 
+}
+
+
+
+@media(min-height:770px){
+    .info-about1{
+        left: 75%;
+        top: 170%;
+    }
+    
+    .info-about2{
+        left: 72%;
+        top: 205%;
+    }
+    
+    .info-about3{
+     left: 6%;
+     top: 206%;   
+    }
+}
+
+
+@media(max-height:780px){
+    .info-about1{
+        left: 75%;
+        top: 250%;
+    }
+    
+    .info-about2{
+        left: 72%;
+        top: 205%;
+    }
+    
+    .info-about3{
+     left: 6%;
+     top: 206%;   
+    }
+}
+
+@media(max-height:630px){
+    .info-about1{
+        left: 75%;
+        top: 290%;
+    }
+    
+    .info-about2{
+        left: 72%;
+        top: 225%;
+    }
+    
+    .info-about3{
+     left: 6%;
+     top: 266%;   
+    }
+}
+
+@media(max-height:580px){
+    .info-about1{
+        left: 75%;
+        top: 270%;
+    }
+    
+    .info-about2{
+        left: 72%;
+        top: 325%;
+    }
+    
+    .info-about3{
+     left: 6%;
+     top: 296%;   
+    }
+}
+
+@media(max-height:450px){
+    .info-about1{
+        left: 95%;
+        top: 370%;
+    }
+    
+    .info-about2{
+        left: 92%;
+        top: 335%;
+    }
+    
+    .info-about3{
+     left: 90%;
+     top: 396%;   
+    }
 }
