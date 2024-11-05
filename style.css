@@ -479,7 +479,7 @@ h3 span.stop-blinking::before{
     color: #fdfdfd;
     font-weight: 300;
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-right: 50%;
     z-index: 999;
 }
@@ -983,7 +983,7 @@ h3 span.stop-blinking::before{
     }
     
     .info-about3{
-     left: 4%;
+     left: -5%;
      top: 176%;   
     }
 }
@@ -1057,16 +1057,16 @@ h3 span.stop-blinking::before{
 @media(max-height:780px){
     .info-about1{
         left: 75%;
-        top: 250%;
+        top: 260%;
     }
     
     .info-about2{
         left: 72%;
-        top: 205%;
+        top: 215%;
     }
     
     .info-about3{
-     left: 6%;
+     left: 1%;
      top: 206%;   
     }
 }
