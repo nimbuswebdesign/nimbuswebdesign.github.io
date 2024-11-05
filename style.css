@@ -502,6 +502,11 @@ h3 span.stop-blinking::before{
     animation: morph 6s linear infinite;
 }
 
+
+
+
+
+
 /* Bubble positions --------------------------------------------------*/
 .info-about1{
     left: 30%;
@@ -1066,7 +1071,7 @@ h3 span.stop-blinking::before{
     }
     
     .info-about3{
-     left: 1%;
+     left: -7%;
      top: 206%;   
     }
 }
