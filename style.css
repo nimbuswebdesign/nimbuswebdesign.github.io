@@ -677,6 +677,49 @@ h3 span.stop-blinking::before{
     }
 }
 
+@media screen and (max-width: 1330px){
+    .services-card{
+        height: 425px;
+        width: 300px;
+    }
+    .services-card button{
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: var(--main-color);
+    position: absolute;
+    top: 220px;
+    left: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+    .services h2{
+        position: absolute;
+        top: 175px;
+        left: 15px;
+    }
+    
+    .services-card p{
+        position: absolute;
+        top: 200px;
+        left: 15px;
+    }
+    .services h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-height: 1130px){
+    .services-card{
+        height: 375px;
+        width: 250px;
+    }
+}
+
+
+
 
 
 /* Contact Section */
@@ -857,4 +900,131 @@ h3 span.stop-blinking::before{
     .footer{
         padding: 2rem 3%;
     }
+}
+
+
+
+
+/*fixing animated bubble and typing animation for mobile */
+
+
+
+
+
+@media(max-height:875px){
+    .info-about1{
+        left: 75%;
+        top: 170%;
+    }
+    
+    .info-about2{
+        left: 72%;
+        top: 205%;
+    }
+    
+    .info-about3{
+     left: 6%;
+     top: 186%;   
+    }
+}
+
+
+
+@media(max-height:670px){
+    .info-about1{
+        left: 75%;
+        top: 210%;
+    }
+    
+    .info-about2{
+        left: 72%;
+        top: 255%;
+    }
+    
+    .info-about3{
+     left: 6%;
+     top: 236%;   
+    }
+}
+
+
+@media(max-height:495px){
+    .info-about1{
+        left: 75%;
+        top: 260%;
+    }
+    
+    .info-about2{
+        left: 72%;
+        top: 325%;
+    }
+    
+    .info-about3{
+     left: 4%;
+     top: 276%;   
+    }
+}
+
+
+
+
+
+
+@media(max-width:620px){
+    .home-content h3{
+        font-size: 2.5rem;
+    }
+}
+
+
+@media(max-width:540px){
+    .home-content h3{
+        font-size: 1.5rem;
+    }
+    .home-content h1{
+        font-size: 4rem;
+    }
+}
+
+
+@media(max-width:620px){
+    .home-content h3{
+        font-size: 2.5rem;
+    }
+}
+
+
+@media(max-width:480px){
+    .home-content h3{
+        font-size: 1.5rem;
+    }
+    .home-content h1{
+        font-size: 3.8rem;
+    }
+    .logo{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media(max-width:340px){
+    .home-content h3{
+        font-size: 1.2rem;
+    }
+    .home-content h1{
+        font-size: 3.6rem;
+    }
+
+}
+
+
+
+@media(max-width:300px){
+    .home-content h3{
+        font-size: 1rem;
+    }
+    .home-content h1{
+        font-size: 3.4rem;
+    }
+
 }
