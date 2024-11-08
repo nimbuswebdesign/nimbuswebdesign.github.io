@@ -423,7 +423,7 @@ h3 span.stop-blinking::before{
     .about .img-about img{
         width: 500%;
     }
-
+    
 
     
 }
@@ -516,11 +516,6 @@ h3 span.stop-blinking::before{
     animation: morph 6s linear infinite;
 }
 
-@media(min-width:885px){
-    .about-content p{
-        font-size: 1.2rem;
-    }
-}
 
 
 
@@ -1148,3 +1143,4 @@ h3 span.stop-blinking::before{
      top: 396%;   
     }
 }
+
