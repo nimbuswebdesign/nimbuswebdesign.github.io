@@ -443,6 +443,9 @@ h3 span.stop-blinking::before{
     align-items: center;
     grid-gap: 2em;
     background: var(--second-bg-color);
+    flex: 1 1 auto; 
+    min-width: 0;
+    width: fit-content;
 }
 
 .about-content{
@@ -468,6 +471,8 @@ h3 span.stop-blinking::before{
     padding-right: 60%;
     margin-right: 50px;
     overflow: hidden;
+    text-align: center;
+    position: fixed;
 }
 
 .about-content h2{
@@ -490,7 +495,7 @@ h3 span.stop-blinking::before{
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
     padding-right: 50%;
-    z-index: 999;
+    z-index: 990;
 }
 
 .info-about1,
