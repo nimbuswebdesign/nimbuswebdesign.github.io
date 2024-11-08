@@ -446,7 +446,7 @@ h3 span.stop-blinking::before{
 }
 
 .about-content{
-    z-index: 999;
+    z-index: 990;
 }
 
 .about .img-about{
