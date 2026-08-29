@@ -1,0 +1,25 @@
+# Everything here is crawlable. There is nothing on this site that shouldn't be.
+User-agent: *
+Allow: /
+
+# AI retrieval bots — how this business gets cited when someone asks an
+# assistant for a web designer. Explicitly welcome.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+Sitemap: https://nimbuswebdesign.com/sitemap.xml
