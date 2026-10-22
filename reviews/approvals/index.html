@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      Per-route head tags — title, description, canonical, robots, Open Graph
+      and Twitter — are injected at the marker below by scripts/prerender.mjs,
+      which writes one static HTML file per route from the table in src/routes.ts.
+
+      Do not hard-code any of them here. A single shared canonical in this
+      template is how every page on a site ends up declaring itself a duplicate
+      of the home page, and it is invisible in a browser.
+
+      There is deliberately no JSON-LD here either. The business entity is built
+      from src/data/siteContent.ts and rendered by the app, so the phone number
+      and address exist in exactly one place in the codebase.
+    -->
+    <title>Owner Approval Demo for AI Review Replies | Nimbus</title>
+    <meta name="description" content="See how Nimbus Reviews drafts replies: 1-3 star replies wait for owner approval, 4-5 star replies post automatically. Simulated demo with sample reviews." />
+    <link rel="canonical" href="https://nimbuswebdesign.com/reviews/approvals/" />
+    <meta name="robots" content="noindex, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Owner Approval Demo for AI Review Replies | Nimbus" />
+    <meta property="og:description" content="See how Nimbus Reviews drafts replies: 1-3 star replies wait for owner approval, 4-5 star replies post automatically. Simulated demo with sample reviews." />
+    <meta property="og:url" content="https://nimbuswebdesign.com/reviews/approvals/" />
+    <meta property="og:image" content="https://nimbuswebdesign.com/images/og-default.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Nimbus Web Design — web design and local SEO in Lakewood Ranch, Florida" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Owner Approval Demo for AI Review Replies | Nimbus" />
+    <meta name="twitter:description" content="See how Nimbus Reviews drafts replies: 1-3 star replies wait for owner approval, 4-5 star replies post automatically. Simulated demo with sample reviews." />
+    <meta name="twitter:image" content="https://nimbuswebdesign.com/images/og-default.png" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#0E1418" />
+    <meta property="og:site_name" content="Nimbus Web Design" />
+    <meta name="geo.region" content="US-FL" />
+    <meta name="geo.placename" content="Lakewood Ranch, Sarasota" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-DNQu3RYt.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CWbrEdSA.css">
+  </head>
+  <body>
+    <!--
+      Prerendered route markup is written into this container at build time, so
+      a visitor or crawler that never runs JavaScript still receives the full
+      page. No <noscript> fallback is needed.
+    -->
+    <div id="root" data-prerendered="true"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="shell header-inner"><a aria-label="Nimbus Web Design, home" class="wordmark" href="/"><span><svg class="wordmark-mark" viewBox="0 0 48 40" role="img" aria-label="Nimbus Web Design" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5 24.5a7.5 7.5 0 0 1 .9-14.94A10.5 10.5 0 0 1 33.4 8.2a8.4 8.4 0 0 1 2.1 16.3H12.5Z" fill="currentColor"></path><path d="M9 30h30" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" opacity=".38"></path><path d="M14 35h20" stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round"></path></svg><span class="wordmark-text">Nimbus<span class="wordmark-light"> Web Design</span></span></span></a><nav class="site-nav" aria-label="Main"><a class="" href="/web-design/">Websites</a><a class="" href="/software-development/">Software</a><a class="" href="/ai-integration/">AI</a><a class="" href="/seo/">SEO</a><a aria-current="page" class="active" href="/reviews/">Reviews</a><a class="" href="/work/">Work</a><a class="" href="/pricing/">Pricing</a></nav><a class="button button-solid header-cta" href="tel:+19178319292">(917) 831-9292</a></div></header><main id="main" class="shell"><section class="page-hero"><p class="eyebrow">Demo · <!-- -->Tampa Bay roofing contractors</p><h1>Owner approval queue</h1><p class="lead">Replies are drafted automatically. Replies to 1–3★ reviews wait for your approval. Replies to 4–5★ reviews post on their own.</p><p class="placeholder-note" role="note"><strong>Placeholder:</strong> <!-- -->Simulated: sample reviews for a fictional business (<!-- -->Gulf Coast Roofing<!-- -->), drafted by a rules-based template engine in your browser. Nothing is posted to Google.</p><nav class="vertical-switch" aria-label="Choose your industry"><span>Industry: </span><span><strong aria-current="page">Tampa Bay roofing contractors</strong></span><span> · <a href="/reviews/approvals/?v=hvac">Florida HVAC &amp; home services</a></span></nav></section><section class="section" aria-labelledby="q-title"><h2 id="q-title" class="section-title">Reviews <span data-testid="pending-count">(<!-- -->3<!-- --> awaiting approval)</span></h2><ul class="review-queue"><li class="review-card" data-testid="review-r1" data-status="auto-posted"><p><span class="stars" aria-label="5 out of 5 stars">★★★★★</span> <strong>Dana P.</strong></p><blockquote>New roof done fast, crew was friendly and cleaned up.</blockquote><label>Drafted reply<!-- --> (topics: fast, friendly, cleanup)<textarea readonly="" rows="3">Thanks a ton, Dana! We know a fast response matters when it&#x27;s your home. The crew will be glad to hear this. We hope to see you around the neighborhood.</textarea></label><p class="status" data-testid="status"><strong>Status:</strong> <!-- -->Auto-posted (simulated)</p></li><li class="review-card" data-testid="review-r2" data-status="auto-posted"><p><span class="stars" aria-label="4 out of 5 stars">★★★★<!-- -->☆</span> <strong>Marcus T.</strong></p><blockquote>Good work, fair, showed up on time.</blockquote><label>Drafted reply<!-- --> (topics: ontime)<textarea readonly="" rows="3">Thank you, Marcus! Being where we said, when we said, is a big deal to our crew. It was a pleasure working with you.</textarea></label><p class="status" data-testid="status"><strong>Status:</strong> <!-- -->Auto-posted (simulated)</p></li><li class="review-card" data-testid="review-r3" data-status="pending"><p><span class="stars" aria-label="3 out of 5 stars">★★★<!-- -->☆☆</span> <strong>Lee R.</strong></p><blockquote>Roof looks good but the bill was more than the quote.</blockquote><label>Drafted reply<!-- --> (topics: price)<textarea rows="3">We appreciate the candid review, Lee. Price changes should never come as a surprise, and we&#x27;d like to understand what happened. Please call (941) 555-0100 and ask for the owner by name.</textarea></label><p class="status" data-testid="status"><strong>Status:</strong> <!-- -->Needs your approval</p><div class="button-row"><button type="button" class="button button-solid">Approve &amp; post</button><button type="button" class="button button-outline">Reject</button></div></li><li class="review-card" data-testid="review-r4" data-status="pending"><p><span class="stars" aria-label="2 out of 5 stars">★★<!-- -->☆☆☆</span> <strong>Jordan K.</strong></p><blockquote>Waited two weeks past the start date and nobody called.</blockquote><label>Drafted reply<!-- --> (topics: late, comms)<textarea rows="3">Jordan, this isn&#x27;t what we want anyone to go through. Nobody should have to wait and wonder when the work will actually start. Hearing nothing while you wait isn&#x27;t the experience anyone wants. If it&#x27;s easier, you can message the owner through our website.</textarea></label><p class="status" data-testid="status"><strong>Status:</strong> <!-- -->Needs your approval</p><div class="button-row"><button type="button" class="button button-solid">Approve &amp; post</button><button type="button" class="button button-outline">Reject</button></div></li><li class="review-card" data-testid="review-r5" data-status="pending"><p><span class="stars" aria-label="1 out of 5 stars">★<!-- -->☆☆☆☆</span> <strong>Sam W.</strong></p><blockquote>Still leaking after the repair. Foreman was rude.</blockquote><label>Drafted reply<!-- --> (topics: rude, quality)<textarea rows="3">Sam, thank you for telling us about this. Nobody on our team should be short with a customer. Issues that show up after the crew leaves are worth a close look. Please call (941) 555-0100 and ask for the owner by name.</textarea></label><p class="status" data-testid="status"><strong>Status:</strong> <!-- -->Needs your approval</p><div class="button-row"><button type="button" class="button button-solid">Approve &amp; post</button><button type="button" class="button button-outline">Reject</button></div></li></ul><button type="button" class="button button-outline">Reset demo</button></section></main><footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><span><svg class="wordmark-mark" viewBox="0 0 48 40" role="img" aria-label="Nimbus Web Design" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5 24.5a7.5 7.5 0 0 1 .9-14.94A10.5 10.5 0 0 1 33.4 8.2a8.4 8.4 0 0 1 2.1 16.3H12.5Z" fill="currentColor"></path><path d="M9 30h30" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" opacity=".38"></path><path d="M14 35h20" stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round"></path></svg><span class="wordmark-text">Nimbus<span class="wordmark-light"> Web Design</span></span></span><p>Websites, local SEO, business software and AI features for small businesses in <!-- -->Lakewood Ranch, Sarasota, Bradenton and the surrounding Manatee and Sarasota County communities<!-- -->.</p><p class="footer-contact"><a href="tel:+19178319292">(917) 831-9292</a><span aria-hidden="true"> · </span><a href="mailto:chris@nimbuswebdesign.com">chris@nimbuswebdesign.com</a></p><p class="footer-meta">Lakewood Ranch<!-- -->, <!-- -->FL<!-- --> · <!-- -->Mon–Fri, 8am–8pm · Sat–Sun, 10am–5pm</p></div><nav class="footer-col" aria-label="Services"><h2>Services</h2><a href="/web-design/">Web design</a><a href="/seo/">SEO</a><a href="/software-development/">Software development</a><a href="/ai-integration/">AI features &amp; automation</a><a href="/web-design/bradenton/">Web design in Bradenton</a><a href="/work/">Our work</a><a href="/reviews/">Nimbus Reviews</a><a href="/roofing/">Reviews for roofers</a><a href="/reviews/score/">Free Review Score</a><a href="/partners/">Agency partners</a></nav><nav class="footer-col" aria-label="Guides"><h2>Guides</h2><a href="/guides/">All guides</a><a href="/guides/is-my-website-findable/">Is my website actually findable?</a><a href="/guides/google-business-profile-first/">Why your Google Business Profile beats your website</a><a href="/guides/why-city-pages-backfire/">Why city pages usually backfire</a><a href="/guides/why-websites-load-slowly/">Why your website loads slowly</a></nav><nav class="footer-col" aria-label="Company"><h2>Company</h2><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/reviews/#consent-privacy">Consent &amp; privacy</a><a href="https://www.linkedin.com/company/nimbuswebdesign/">LinkedIn</a><a href="https://www.instagram.com/nimbuswebdesign/">Instagram</a></nav></div><div class="shell footer-legal"><p>© <!-- -->2026<!-- --> <!-- -->Nimbus Web Design<!-- -->. All rights reserved.</p></div></footer></div>
+  </body>
+</html>
